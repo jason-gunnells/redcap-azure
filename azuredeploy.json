@@ -51,6 +51,7 @@
       },
       "smtpFQDN": {
         "type": "string",
+        "defaultValue": "smtp.office365.com",
         "metadata": {
           "description": "Fully-qualified domain name of your SMTP relay service. (e.g. example.com)"
         }
