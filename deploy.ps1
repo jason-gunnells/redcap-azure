@@ -28,7 +28,6 @@ function Main {
 		$filename = GetFileName
 		$filePath = "$path\$filename"
 		$version = $filename.Replace(".zip", "")
-		$dbver = $version.Replace("redcap", "")
 
 		Log("Processing $version")
 
@@ -178,7 +177,7 @@ function UpdatePHPSettings {
 	$sendmailiniFile | Set-Content $sendmailiniFileName
 
 	$iniFolder = "$($env:HOME)\site\ini"
-	mkdir $iniFolder
+	New-Item -Path $iniFolder -ItemType Directory -Force
 	$settingsFileName = "$path\Files\settings.ini"
 	Log("Updating $settingsFileName with assigned variables")
 	$settingsFile = [System.Io.File]::ReadAllText($settingsFileName)
