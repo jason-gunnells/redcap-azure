@@ -3,7 +3,8 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "siteName": {
-        "value": "REDCap"
+        "value": "REDCap",
+        "comments": "The name of the web app that will be created"
       },
       "administratorLogin": {
         "value": null
@@ -24,7 +25,7 @@
         "value": null
       },
       "smtpFQDN": {
-        "value": null
+        "value": "smtp.office365.com"
       },
       "smtpUser": {
         "value": null
