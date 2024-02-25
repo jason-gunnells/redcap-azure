@@ -5,13 +5,14 @@
       "siteName": {
         "type": "string",
         "metadata": {
-          "description": "Name of the application (e.g. REDCap)"
+          "description": "Name of the application (e.g. REDCap)",
+          "comments": "test"
         }
       },
       "administratorLogin": {
         "type": "string",
         "minLength": 1,
-        "defaultValue": "redcap_app",
+        "defaultValue": "redcapadmin",
         "metadata": {
           "description": "Database administrator username"
         }

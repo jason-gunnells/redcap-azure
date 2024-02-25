@@ -6,7 +6,7 @@
         "value": "REDCap"
       },
       "administratorLogin": {
-        "value": "redcapadmin"
+        "value": null
       },
       "administratorLoginPassword": {
         "value": null
