@@ -119,11 +119,12 @@
         "Basic",
         "GeneralPurpose",
         "MemoryOptimized"
-      ]
-    },
+      ],
+    }
     "defaultValue": "GeneralPurpose",
     "metadata": {
       "description": "MySQL server performance tier. For more information see https://docs.microsoft.com/en-us/azure/mysql/concepts-pricing-tiers"
+      }
     },
     "databaseForMySqlFamily": {
       "type": "string",
